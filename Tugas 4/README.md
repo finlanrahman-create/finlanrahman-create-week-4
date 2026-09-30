@@ -1,15 +1,17 @@
-# React + Vite
+# Tugas Week 4 - Informatics Summit Bootcamp II
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project React + Vite + Tailwind CSS untuk menampilkan kartu profil tim.
 
-Currently, two official plugins are available:
+## Fitur
+- Komponen Header dan Card terpisah.
+- Menggunakan Props untuk mengirim data (name, role, bio, avatar).
+- Menggunakan useState untuk fitur interaktif tombol "Like".
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Cara Menjalankan
+1. Clone repository ini.
+2. Jalankan `npm install`.
+3. Jalankan `npm run dev`.
+4. Buka `http://localhost:5173` di browser.
 
 ## Expanding the ESLint configuration
 
